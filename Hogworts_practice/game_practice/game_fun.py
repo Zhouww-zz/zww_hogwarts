@@ -20,10 +20,12 @@ def fight(enemy_hp,enemy_power):
             break
 #当前文件可以执行下列代码，如果是将该包导入到其他项目中，下面的代码不会被执行
 if __name__ == "__main__":
+
     #使用列表推导式随机获取血量列表中的值
     hp=[x for x in range(990,1010)]
     enemy_hp=random.choice(hp)
     print(enemy_hp)
+    
     #使用randint随机获取在一个区间里的整数型
     enemy_power=random.randint(190,210)
     print(enemy_power)

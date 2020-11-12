@@ -4,7 +4,7 @@ def fight():
     my_hp=1000
     enemy_hp=1000
     my_power=200
-    enemy_power=199
+    enemy_power=201
 
     while True:
         my_hp = my_hp - enemy_power
